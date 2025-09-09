@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleper Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Cleper Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Explore My Creative Journey</h1>
+            <p>Crafting elegant solutions with an oak-inspired aesthetic.</p>
+            <a href="#portfolio" class="cta-button">Discover My Work</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="image/profile.jpg" style="width: 400px; position:relative;" alt="Profile Picture" class="profile-img">
+            <div class="about-text">
+                <p>I'm a passionate designer and developer inspired by the timeless beauty of oak wood. My work blends modern functionality with warm, natural aesthetics to create memorable digital experiences.</p>
+                <p>With expertise in web development and UI/UX design, I aim to deliver projects that are both functional and visually stunning.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <p>HTML & CSS</p>
+                <div class="progress-bar"><div class="progress" style="width: 5%;"></div></div>
+            </div>
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="progress-bar"><div class="progress" style="width: 2%;"></div></div>
+            </div>
+            <div class="skill">
+                <p>UI/UX Design</p>
+                <div class="progress-bar"><div class="progress" style="width: 5%;"></div></div>
+            </div>
+            <div class="skill">
+                <p>React</p>
+                <div class="progress-bar"><div class="progress" style="width: 0%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="image/image.png" alt="Project 1">
+                <div class="overlay">
+                    <h3>Modern Web App</h3>
+                    <p>A sleek and responsive web application.</p>
+                    <a href="#" class="view-project">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="image/image.png" alt="Project 2">
+                <div class="overlay">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A fully functional online store.</p>
+                    <a href="#" class="view-project">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="image/image.png" alt="Project 3">
+                <div class="overlay">
+                    <h3>Creative Portfolio</h3>
+                    <p>A showcase of artistic designs.</p>
+                    <a href="#" class="view-project">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-content">
+            <p>Let's collaborate on your next project!</p>
+            <div class="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button class="submit-btn">Send Message</button>
+            </div>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> shopcleperid@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +62 878 5064 0584</p>
+                <p><i class="fab fa-github"></i> https://github.com/shopcleperid-cloud</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Oak Portfolio. Crafted with <i class="fas fa-heart"></i>.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
